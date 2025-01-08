@@ -1,0 +1,14 @@
+.calculator {
+  border: 5px solid rgb(189, 95, 95);
+  width: 250px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.calcBox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 3vh;
+  background-color: rgb(217, 238, 217);
+}

@@ -1,0 +1,26 @@
+.button {
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  border: 2px solid green;
+  color: yellow;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: rgb(9, 119, 51);
+}
+.button:hover {
+  background-color: rgb(0, 0, 0);
+  color: yellow;
+  border: 2px solid yellow;
+  cursor: pointer;
+  /* border-radius: 50%; */
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
